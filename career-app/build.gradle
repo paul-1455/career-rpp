@@ -1,0 +1,17 @@
+bootJar {
+    enabled = true
+}
+
+jar {
+    enabled = false
+}
+
+dependencies {
+    implementation project(":career-domain")
+    implementation project(":clients:client-core")
+    implementation project(":clients:client-gsitm-oauth2")
+    implementation project(":supports:career-aws-support")
+    implementation project(":infrastructures:career-infra-rds")
+    implementation project(":infrastructures:career-infra-mongo")
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}

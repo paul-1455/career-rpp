@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: career-repository-pattern
+  profiles:
+    group:
+      default: mongo, jpa, core, domain, client
+
+career:
+  infra:
+    mongo: true

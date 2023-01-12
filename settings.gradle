@@ -1,0 +1,12 @@
+rootProject.name = 'career-rpp'
+
+include(
+        "career-app",
+        "career-domain",
+        "career-core",
+        "infrastructures:career-infra-mongo",
+        "infrastructures:career-infra-rds",
+        "supports:career-aws-support",
+        "clients:client-core",
+        "clients:client-gsitm-oauth2"
+)
